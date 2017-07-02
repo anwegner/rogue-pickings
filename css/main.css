@@ -1,0 +1,151 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1200px; 
+	margin: 0 auto; 
+}
+
+h1 {
+		color: #000000;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 30px;
+		font-weight: bold;
+		padding: 15px 0;
+		text-align: left;
+		text-transform: uppercase;
+		float:left;
+}
+h2 {
+	color: #77a466;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+h3 {
+	font-weight:bold;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+h4 {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+p{
+	font-size:16px;
+}
+
+
+/***** HEADER *****/
+
+header{
+	height:110px;
+	width:100%;
+	bottom-border:3px solid #77a466;
+	margin: 0 auto;
+}
+header span{
+	color:#77a466;
+}
+header nav {
+    float: right; 
+    padding: 45px 0px;
+}
+header nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:14px;
+    color: #77a466;
+    padding-left: 10px; 
+}
+
+/***** TOP *****/
+.top,
+.bottom {
+	width: 100%;
+	clear: both;
+	margin: 0 auto;
+} 
+
+.top img {
+	width:100%;
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+.top h3 {
+	color: #77a466;
+}
+
+.top p {
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 398px;
+	float: left;
+	height: 215px;
+	border-top:3px solid #eeeeee;
+	border-bottom: 3px solid #eeeeee;
+}	
+
+.section-two {
+	border-right:1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+}
+
+.section-one h4{
+	padding:10px 0}
+
+.section-two h4,
+.section-three h4{
+	padding: 10px 30px;
+}
+
+.menu {
+	list-style: none;
+	padding:0;
+}
+
+.menu li {
+	padding: 10px 0;
+	color: #77a466;
+}
+
+.reviews {
+	line-height: 21px;
+	padding-left: 30px;
+}
+
+.reviews p {
+	line-height: 21px;
+}
+
+.address {
+	line-height: 24px;
+	font-size: 16px;
+	padding-left: 30px;
+}
+
+/***** footer *****/
+
+footer {
+	width:100%;
+	clear:both;
+	text-align: center;
+	height: 80px;
+	padding:35px 0;
+}
+
+footer span {
+	font-family: 'Lobster', cursive;
+	color: #77a466;
+	text-transform: lowercase;
+}
